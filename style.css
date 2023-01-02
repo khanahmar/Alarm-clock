@@ -77,3 +77,7 @@ button:hover {
   background-color: #3892ff;
 }
 
+.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}
