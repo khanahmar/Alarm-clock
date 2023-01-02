@@ -17,22 +17,20 @@
   <body>
     <div class="main">
       <img src="clock.svg" alt="" />
-      <h1 class="h1">00 : 00 : 00 am</h1>
-      <div class="select">
-        <select>
+      <h1 id="h1"></h1>
+      <div id="select" class="select">
+        <select id="hourSelect">
           <option selected hidden value="Hour">Hour</option>
-          <option value="01">01</option>
-          <option value="02">02</option>
         </select>
-        <select>
-          <option selected hidden value="minut">minut</option>
-          <option value="01">01</option>
-          <option value="02">02</option>
+        <select id="minSelect">
+          <option selected hidden value="minut">Minutes</option>
         </select>
-        <select>
-          <option selected hidden value="second">second</option>
-          <option value="01">01</option>
-          <option value="02">02</option>
+        <select id="secSelect">
+          <option selected hidden value="second">Second</option>
+        </select>
+        <select id="apmpSel">
+          <option value="am">am</option>
+          <option value="pm">pm</option>
         </select>
       </div>
       <button id="button">Set Alarm</button>
